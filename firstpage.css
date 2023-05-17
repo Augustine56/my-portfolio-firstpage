@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@100;200;400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(/images/my\ pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+  }
+  .date-container {
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .date-container .time {
+    font-size: 200px;
+    color: #eee;
+  }
+  
+  .date-container #am-pm {
+    font-size: 50px;
+    margin-left: 10px;
+    color: #eee;
+  }
+  
+  .date-container .date {
+    font-size: 80px;
+    color: #eee;
+  }
+   .text p{
+    color: #eee;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+
+
+  }
+  span{
+    color: #ff4500;
+  }
+  .link p{
+    text-align: center;
+    margin-top: 4%;
+  }
+  .link p a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #eee;
+  }
+  .link p a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+  }
+  @media only screen and (max-width: 730px){
+    .date-container{
+        padding: 20px;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .date-container .time {
+        font-size: 50px;
+        color: black;
+    }
+    .date-container #am-pm{
+        font-size: 15px;
+        color: black;
+    }
+    .date-container .date{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    .link p{
+        margin-top: 3%;
+    }
+    .link p a{
+        font-size: 10px;
+    }  
+  }
